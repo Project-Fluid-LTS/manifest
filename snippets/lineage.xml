@@ -119,6 +119,7 @@
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="LineageOS" />
   <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" remote="LineageOS" />
   <project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" remote="LineageOS" />
+  <project path="packages/modules/DnsResolver" name="LineageOS/android_packages_modules_DnsResolver" remote="LineageOS" />
   <project path="packages/providers/DownloadProvider" name="LineageOS/android_packages_providers_DownloadProvider" remote="LineageOS" />
 
   <!-- Prebuilts -->
