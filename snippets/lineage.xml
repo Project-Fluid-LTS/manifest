@@ -113,6 +113,9 @@
   <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="LineageOS" />
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-18.1-caf" remote="LineageOS" />
 
+  <!-- Libcore -->
+  <project path="libcore" name="LineageOS/android_libcore" groups="pdk" remote="LineageOS" />
+
   <!-- Frameworks -->
   <project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" remote="LineageOS" />
 
