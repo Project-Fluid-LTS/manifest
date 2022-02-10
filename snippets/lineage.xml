@@ -146,6 +146,7 @@
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="LineageOS" />
   <project path="system/libufdt" name="LineageOS/android_system_libufdt" remote="LineageOS" />
   <project path="system/tools/aidl" name="LineageOS/android_system_tools_aidl" groups="pdk" remote="LineageOS" />
+  <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="LineageOS" />
 
   <!-- Tools -->
   <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="LineageOS" />
