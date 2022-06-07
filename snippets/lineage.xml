@@ -24,6 +24,7 @@
   <project path="external/tremolo" name="LineageOS/android_external_tremolo" groups="pdk" remote="LineageOS" />
   <project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" remote="LineageOS" />
   <project path="external/libexif" name="LineageOS/android_external_libexif" groups="pdk" remote="LineageOS" />
+  <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" remote="LineageOS" />
 
   <!-- Build -->
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" remote="LineageOS" />
