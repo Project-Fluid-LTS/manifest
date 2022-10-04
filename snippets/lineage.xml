@@ -26,6 +26,7 @@
   <project path="external/libexif" name="LineageOS/android_external_libexif" groups="pdk" remote="LineageOS" />
   <project path="external/aac" name="LineageOS/android_external_aac" groups="pdk" remote="LineageOS" />
   <project path="external/expat" name="LineageOS/android_external_expat" groups="pdk" remote="LineageOS" />
+  <project path="external/dtc" name="LineageOS/android_external_dtc" groups="pdk" remote="LineageOS" />
 
   <!-- Build -->
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" remote="LineageOS" />
