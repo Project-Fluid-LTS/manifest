@@ -8,7 +8,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-11.0.0_r40"
+  <default revision="refs/tags/android-11.0.0_r48"
            remote="aosp"
            sync-j="4" />
 
@@ -822,6 +822,8 @@
   <include name="snippets/lineage.xml" />
 
   <include name="snippets/fluid.xml" />
+
+  <include name="snippets/fluid-lts.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="fluid-lts"
+           fetch="https://github.com/Project-Fluid-LTS/"
+           revision="fluid-11" />
+
+  <!-- Bionic -->
+  <project path="bionic" name="bionic" groups="pdk" remote="fluid-lts" />
+
+  <!-- Bootable -->
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="fluid-lts" />
+
+  <!-- Build -->
+  <project path="build/make" name="build" groups="pdk" remote="fluid-lts" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="frameworks_av" remote="fluid-lts" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fluid-lts" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk-cw-fs,pdk-fs" remote="fluid-lts" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="fluid-lts" />
+
+  <!-- Hardware -->
+  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="fluid-lts" />
+
+  <!-- Manifest -->
+  <project path="manifest" name="manifest" remote="fluid-lts" />
+
+  <!-- Packages -->
+  <project path="packages/apps/FluidLauncher" name="packages_apps_FluidLauncher" remote="fluid-lts" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="fluid-lts" />
+  <project path="packages/apps/PermissionController" name="packages_apps_PermissionController" remote="fluid-lts" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="fluid-lts" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="fluid-lts" />
+
+  <!-- System -->
+  <project path="system/core" name="system_core" groups="pdk" remote="fluid-lts" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="fluid-lts" />
+
+  <!-- Vendor -->
+  <project path="vendor/fluid" name="vendor_fluid" remote="fluid-lts" />
+
+</manifest>
